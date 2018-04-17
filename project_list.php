@@ -29,7 +29,7 @@ if ( basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"]) ) {
         ],
         4 => [
             'name' => 'Better Than Diamonds',
-            'description' => "I tought myself to program at the age of 12. At 13, I made this mod for minecraft and released it a couple years later. I won't be providing the code or link because I get cringe sickness from thoughts of my Minecraft past. It also respectively operates and reads as if a 13 year old wrote it. It almost has 3,000 downloads though so it couldn't have been that bad."
+            'description' => "I tought myself to program at the age of 12. At 13, I made this mod for minecraft and released it a couple years later. I won't be providing the code or link because I get cringe sickness from thoughts of my Minecraft past. It also respectively operates and reads as if a 13 year old wrote it. It almost has 3,000 downloads though so it couldn't have been that bad.",
             'http' => '#',
             'image' => 'images/project.jpg',
         ],
