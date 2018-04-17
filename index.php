@@ -34,6 +34,9 @@
                 <a href="#projects">Projects</a>
             </li>
             <li>
+                <a href="#education">Affiliations</a>
+            </li>
+            <li>
                 <a href="#skills">Skills</a>
             </li>
             <li>
@@ -92,11 +95,32 @@
             <div data-date="2015 – August 2016">
                 <h3>Staminus Communications / StackPath</h3>
                 <h4>Senior Backend Engineer</h4>
-                <p>
+                <span id='show-more-staminus'>
+                    <p id='staminus-short'>
                     Staminus was a global provider of cyber security through hybrid DDoS mitigation service utilizing cloud and on-premises hardware appliances. I architected and engineered several aspects of the network, maintained and added to existing appliance softwares, provided enterprise customers with support, and built custom implementations for companies such as Advania, Huawei, and Neverfail. I regularly worked with PHP, and had a lot of time on Juniper and Cisco hardware. 
-
+                    <br /><br />
                     Staminus was acquired in 2016 for 12x revenue by StackPath, a global cyber security firm with nearly $200M in funding.
+                    </p>
+                    <br />
+                    <a onclick='document.getElementById("staminus-long").style.display = "block";document.getElementById("show-more-staminus").style.display = "none";'>Expand</a>
+                </span> 
+                
+                <p id='staminus-long' style='display: none;'>
+                    Staminus was a global provider of cyber security through hybrid DDoS mitigation service utilizing cloud and on-premises hardware appliances. I architected and engineered several aspects of the network, maintained and added to existing appliance softwares, provided enterprise customers with support, and built custom implementations for companies such as Advania, Huawei, and Neverfail. I regularly worked with PHP, and had a lot of time on Juniper and Cisco hardware. A lot of my experience involved making live fixes and security implementations while under high pressure.  
+                    <br /><br />
+                    Some things I used and performed from day to day were: Onboarding all enterprise level customers, managed a team of 2 operations support techs, worked on our proprietary security software in C/ HHVM, Traffic Monitoring application bug fixes and feature requests daily in HHVM/PHP5, Automation of all processes through Ansible, Live swings and nulls as appropriate for high value customers, Creation and design of the user panel flow and features (including the backend hooks to all of our on-premise and hosted appliances), rDNS/Proxy setup, AC/PDU/UPS/Generator maintenance and monitoring, Hands on maneuvering and troubleshooting with very expensive equipment (fiber and copper communications), Application and server development using PHP/Bash/Python/Scala/Go/Inline C/VTYSH, Setting up of BGP over GRE tunnels for most customers and internal operations, and handled internal operations such as printers, phones, etc.   
+                    <br /><br />
+                    I was also the main tech for trips to One Wilshire DataCenter for maintenance and emergency fixes at our PoP there. During the acquisition process, I was in meetings with all CTO's and CEO's for planning and technical discussion, commonly travelling to the MaxCDN office in LA, as well as attending/ representing at trade shows and events such as NANOG.  
+                    <br /><br />
+                    Intreppid was Staminus's child company designed for renting out unused dedicated machine space in our datacenter. The website and panel were run using WHMCS. The operations team I managed also handled tickets and support for Intreppid. I engineered backend software for automation and deployments. I also maintained and added features weekly to our in house ticketing system and staff portal. (Most technical operations were performed through the staff/admin panel, which was designed and operated in Smarty/PHP and hooked directly into the API I implemented to control the backend aspects of the network (PHP/C/Bash).  
+                    <br /><br />
+                    Staminus has developed and currently maintains its own global patented scrubbing technology, scrubbing centers, and network backbone across the world.  
+                    <br /><br />
+                    Staminus was acquired in 2016 for 12x revenue by StackPath, a global cyber security firm with nearly $200M in funding. After this, I worked with Atlassian tools and gained more experience working on networks designed for CDN, VPN, DNS, and application layer security.
+                    <br /><br />
+                    <a onclick='document.getElementById("staminus-short").style.display = "block";document.getElementById("staminus-long").style.display = "none";document.getElementById("show-more-staminus").style.display = "block";'>Show less</a>
                 </p>
+                
             </div>
 
             <div data-date="2013 – May 2015">
@@ -108,41 +132,7 @@
             </div>
         </div>
     </div>
-    <!-- End #experience -->
-<!-- Unneeded education block
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Edison High School</h3>
-            <span class="education-date">Sept 2015</span>
-            <h4>Diploma</h4>
-            <p>
-                Highschool diploma with focus on Computer Science and Statistics.
-            </p>
-        </div>
-        <!-- End .education-block 
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-
-        <!-- End .education-block
-    </div>
--->
-    <!-- End #education -->
+    
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -224,6 +214,44 @@
     </div>
     <!-- End #projects -->
 
+    <!-- End #experience -->
+    <div id="education">
+        <h2 class="heading">Affiliations</h2>
+        <div class="education-block">
+            <h3>IT Proactive</h3>
+            <span class="education-date">2017</span>
+            <h4>Network Architecture and Engineering</h4>
+            <p>
+                IT Proactive is a local Managed Services Provider that I lent a hand architecting and implementing Windows networks for large offices and production factories for the later part of 2017.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Team Special Forces / Fragged Nation</h3>
+            <span class="education-date">2013 - 2018</span>
+            <h4>Platform Manager and Head Tech</h4>
+            <p>
+                For many communities such as Fragged Nation, Team Special Forces, and GZGaming, I would volunteer my time to create backend web tools for maintenance and scheduling, as well as coordinate/implement events and tournaments. I've also created a few standalone applications to help administration of large online communities in the gaming environment.
+            </p>
+        </div>
+
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>The Sugar Shack / Professional Sponsorships</h3>
+            <span class="education-date">2011 - 2016</span>
+            <h4>Surf / Dirt BMX</h4>
+            <p>
+                I stopped being extremely active towards the end of 2015 and devoted my life to programming and teaching myself innovative technologies. Before that in 2011, I worked at and represented The Sugar Shack, a local famous breakfast/coffee shop, in surf competitions. From 2012-2015 I was professionally sponsored by Spy Sunglasses, Dragon Alliance Snowboarding, Globe Shoes, and a few others for dirt BMX riding through their grassroots initiatives.
+            </p>
+        </div>
+
+        <!-- End .education-block -->
+    </div>
+
+    <!-- End #education -->
+
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
@@ -236,11 +264,15 @@
             <li>Security</li>
             <li>DDoS</li>
             <li>VPN</li>
+            <li>CDN</li>
+            <li>DNS</li>
+            <li>GIT/SVN</li>
             <li>Linux/Redhat/OSX/Windows</li>
             <li>Ansible</li>
             <li>Vagrant</li>
             <li>Docker</li>
             <li>PHP</li>
+            <li>REST</li>
             <li>Laravel/Lumen</li>
             <li>Java</li>
             <li>SQL</li>
@@ -251,6 +283,8 @@
             <li>C#</li>
             <li>C++</li>
             <li>VB.NET</li>
+            <li>Datacenter</li>
+            <li>Atlassian</li>
             <li>Unreal Engine 4</li>
             <li>Android Studio</li>
             <li>Project Management</li>
