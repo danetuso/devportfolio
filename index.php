@@ -204,7 +204,12 @@
                             <p>
                                 <?php echo $project['description']; ?>
                             </p>
-                            <a href="<?php echo $project['http']; ?>" target="_blank">View Project</a>
+                            <?php 
+                            if($project['http'] != "#"){ 
+                                echo "<a href='" . $project['http'] . "' target='_blank'>View Project</a>";
+                            }
+                            ?>
+                            <!-- <a href="<?php echo $project['http']; ?>" target="_blank">View Project</a> -->
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -224,8 +229,13 @@
         <ul>
             <li>Software Development</li>
             <li>Network Architecture</li>
+            <li>Business Development</li>
+            <li>Product Design</li>
             <li>Cloud Computing</li>
             <li>Juniper/Cisco</li>
+            <li>Security</li>
+            <li>DDoS</li>
+            <li>VPN</li>
             <li>Linux/Redhat/OSX/Windows</li>
             <li>Ansible</li>
             <li>Vagrant</li>
@@ -243,6 +253,8 @@
             <li>VB.NET</li>
             <li>Unreal Engine 4</li>
             <li>Android Studio</li>
+            <li>Project Management</li>
+            <li>Public/Media Relations</li>
         </ul>
     </div>
     <!-- End #skills -->
