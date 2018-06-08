@@ -312,7 +312,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 Dane Tuso
+                        Copyright &copy; 2018 Dane Tuso
                     </p>
                 </div>
                 <div class="col-sm-2 top">
